@@ -177,52 +177,67 @@
 <p><code>node -v</code></p>
 <p><code>git --version</code></p>
 <p>检查一下有没有安装成功</p>
-<p><img src="/%E9%99%88%E5%A5%89%E9%A2%96-202120130268-%E5%AE%9E%E9%AA%8C3/%E5%9B%BE%E7%89%871.png" alt="![alt text](图片1.png)"></p>
+<img src="/2024/03/25/%E9%99%88%E5%A5%89%E9%A2%96-202120130268-%E5%AE%9E%E9%AA%8C3/%E5%9B%BE%E7%89%871.png" class="" title="!\[alt text\](图片1.png)">
+
 <h3 id="2-安装Hexo"><a href="#2-安装Hexo" class="headerlink" title="2.安装Hexo"></a><strong>2.安装Hexo</strong></h3><p>前面git和nodejs安装好后，就可以安装hexo了，可以先创建一个文件夹myblog，用来存放自己的博客文件，然后cd到这个文件夹下（或者在这个文件夹下直接右键git bash打开）。定位到该目录下，输入<code>npm install -g hexo-cli</code>安装Hexo。可能会有几个报错，无视它就行。</p>
-<p><img src="/%E9%99%88%E5%A5%89%E9%A2%96-202120130268-%E5%AE%9E%E9%AA%8C3/%E5%9B%BE%E7%89%872.png" alt="![alt text](图片2.png)"></p>
+<img src="/2024/03/25/%E9%99%88%E5%A5%89%E9%A2%96-202120130268-%E5%AE%9E%E9%AA%8C3/%E5%9B%BE%E7%89%872.png" class="" title="!\[alt text\](图片2.png)">
+
 <p>安装完后输入hexo -v验证是否安装成功。</p>
-<p><img src="/%E9%99%88%E5%A5%89%E9%A2%96-202120130268-%E5%AE%9E%E9%AA%8C3/image.png" alt="![alt text](image.png)"></p>
+<img src="/2024/03/25/%E9%99%88%E5%A5%89%E9%A2%96-202120130268-%E5%AE%9E%E9%AA%8C3/image.png" class="" title="!\[alt text\](image.png)">
+
 <p>至此hexo就安装完了。</p>
 <p>接下来初始化一下hexo,即初始化我们的网站，进入我们主题根目录Hexo，输入<code>hexo init</code>初始化文件夹</p>
 <p>这个Hexo可以自己取什么名字都行，然后，接着输入<code>npm install</code>安装必备的组件。</p>
-<p><img src="/%E9%99%88%E5%A5%89%E9%A2%96-202120130268-%E5%AE%9E%E9%AA%8C3/image-1.png" alt="![alt text](image-1.png)"></p>
+<img src="/2024/03/25/%E9%99%88%E5%A5%89%E9%A2%96-202120130268-%E5%AE%9E%E9%AA%8C3/image-1.png" class="" title="!\[alt text\](image-1.png)">
+
 <h3 id="3-注册Github账号创建个人仓库"><a href="#3-注册Github账号创建个人仓库" class="headerlink" title="3.注册Github账号创建个人仓库"></a><strong>3.注册Github账号创建个人仓库</strong></h3><h4 id="3-1-打开https-github-com-，新建一个项目仓库-New-repository"><a href="#3-1-打开https-github-com-，新建一个项目仓库-New-repository" class="headerlink" title="3.1.打开https://github.com/ ，新建一个项目仓库 New repository"></a>3.1.打开<a target="_blank" rel="noopener" href="https://github.com/">https://github.com/</a> ，新建一个项目仓库 New repository</h4><p>要创建一个和用户名相同的仓库，后面加.<a target="_blank" rel="noopener" href="http://github.io/">http://github.io</a> ，只有这样，将来要部署到GitHub page的时候，才会被识别，也就是<a target="_blank" rel="noopener" href="http://xxxx.github.io/">http://xxxx.github.io</a> ，其中xxx就是注册GitHub的用户名。例如我的： <a target="_blank" rel="noopener" href="http://cy-ay.github.io/">http://cy-ay.github.io</a></p>
-<p><img src="/%E9%99%88%E5%A5%89%E9%A2%96-202120130268-%E5%AE%9E%E9%AA%8C3/image-2.png" alt="![alt text](image-2.png)"></p>
+<img src="/2024/03/25/%E9%99%88%E5%A5%89%E9%A2%96-202120130268-%E5%AE%9E%E9%AA%8C3/image-2.png" class="" title="!\[alt text\](image-2.png)">
+
 <h4 id="3-2-生成SSH添加到GitHub"><a href="#3-2-生成SSH添加到GitHub" class="headerlink" title="3.2.生成SSH添加到GitHub"></a>3.2.生成SSH添加到GitHub</h4><p>生成SSH添加到GitHub，连接Github与本地。</p>
 <p>右键打开git bash，然后输入下面命令：</p>
 <p><code>git config --global user.name &quot;yourname&quot;</code></p>
 <p><code>git config --global user.email &quot;youremail&quot;</code></p>
 <p>可以用以下两条，检查一下有没有输对</p>
 <p><code>git config user.name</code><br><code>git config user.email</code></p>
-<p><img src="/%E9%99%88%E5%A5%89%E9%A2%96-202120130268-%E5%AE%9E%E9%AA%8C3/image-3.png" alt="![alt text](image-3.png)"></p>
+<img src="/2024/03/25/%E9%99%88%E5%A5%89%E9%A2%96-202120130268-%E5%AE%9E%E9%AA%8C3/image-3.png" class="" title="!\[alt text\](image-3.png)">
+
 <p>然后创建SSH,一路回车。</p>
 <p>ssh，简单来讲，就是一个秘钥，其中，<code>id\_rsa</code>是你这台电脑的私人秘钥，不能给别人看的，<code>id\_rsa.pub</code>是公共秘钥，可以随便给别人看。把这个公钥放在GitHub上，这样当你链接GitHub自己的账户时，它就会根据公钥匹配你的私钥，当能够相互匹配时，才能够顺利的通过git上传你的文件到GitHub上。</p>
 <p><code>ssh-keygen -t rsa -C &quot;youremail&quot;</code></p>
 <p>这个时候它会告诉你已经生成了.ssh的文件夹。在你的电脑中找到这个文件夹。或者git bash中输入<code>cat ~/.ssh/id\_rsa.pub</code></p>
 <p>将输出的内容复制到框中，点击确定保存。</p>
 <p>打开<a target="_blank" rel="noopener" href="http://github.com/">github</a>，在头像下面点击settings，再点击SSH and GPG keys，新建一个SSH，名字随便取一个都可以，把<code>id\_rsa.pub</code>里面的信息复制进去。如图：</p>
-<p><img src="/%E9%99%88%E5%A5%89%E9%A2%96-202120130268-%E5%AE%9E%E9%AA%8C3/image-4.png" alt="![alt text](image-4.png)"><br><img src="/%E9%99%88%E5%A5%89%E9%A2%96-202120130268-%E5%AE%9E%E9%AA%8C3/image-5.png" alt="![alt text](image-5.png)"></p>
-<p><img src="/%E9%99%88%E5%A5%89%E9%A2%96-202120130268-%E5%AE%9E%E9%AA%8C3/image-6.png" alt="![alt text](image-6.png)"><br>在git bash输入<code>ssh -T git@github.com</code>，如果如下图所示，出现自己的用户名，那就成功了。</p>
-<p><img src="/%E9%99%88%E5%A5%89%E9%A2%96-202120130268-%E5%AE%9E%E9%AA%8C3/image-7.png" alt="![alt text](image-7.png)"></p>
+<img src="/2024/03/25/%E9%99%88%E5%A5%89%E9%A2%96-202120130268-%E5%AE%9E%E9%AA%8C3/image-4.png" class="" title="!\[alt text\](image-4.png)">
+<img src="/2024/03/25/%E9%99%88%E5%A5%89%E9%A2%96-202120130268-%E5%AE%9E%E9%AA%8C3/image-5.png" class="" title="!\[alt text\](image-5.png)">
+
+<img src="/2024/03/25/%E9%99%88%E5%A5%89%E9%A2%96-202120130268-%E5%AE%9E%E9%AA%8C3/image-6.png" class="" title="!\[alt text\](image-6.png)">
+<p>在git bash输入<code>ssh -T git@github.com</code>，如果如下图所示，出现自己的用户名，那就成功了。</p>
+<img src="/2024/03/25/%E9%99%88%E5%A5%89%E9%A2%96-202120130268-%E5%AE%9E%E9%AA%8C3/image-7.png" class="" title="!\[alt text\](image-7.png)">
+
 <h3 id="4-将hexo部署到GitHub"><a href="#4-将hexo部署到GitHub" class="headerlink" title="4.将hexo部署到GitHub"></a><strong>4.将hexo部署到GitHub</strong></h3><p>这一步，我们就可以将hexo和GitHub关联起来，也就是将hexo生成的文章部署到GitHub上，打开博客根目录下的<code>\_config.yml</code>文件，这是博客的配置文件，在这里你可以修改与博客配置相关的各种信息。</p>
 <p>修改最后一行的配置：（注意这里是<strong>main</strong>不是master，非常重要！！！）</p>
-<p><img src="/%E9%99%88%E5%A5%89%E9%A2%96-202120130268-%E5%AE%9E%E9%AA%8C3/image-8.png" alt="![alt text](image-8.png)"></p>
+<img src="/2024/03/25/%E9%99%88%E5%A5%89%E9%A2%96-202120130268-%E5%AE%9E%E9%AA%8C3/image-8.png" class="" title="!\[alt text\](image-8.png)">
+
 <p>repository修改为自己的github项目地址即可就是部署时，告诉工具，将生成网页通过git方式上传到对应的链接仓库中。</p>
 <p>这个时候需要先安装<code>deploy-git</code> ，也就是部署的命令,这样才能用命令部署到GitHub。</p>
 <p><code>npm install hexo-deployer-git --save</code></p>
 <p>然后</p>
 <p><code>hexo clean</code><br><code>hexo generate</code><br><code>hexo deploy</code></p>
 <p>其中 <code>hexo clean</code>清除了你之前生成的东西，也可以不加。 <code>hexo generate</code>顾名思义，生成静态文章，可以用 <code>hexo g</code>缩写 ，<code>hexo deploy</code>部署文章，可以用<code>hexo d</code>缩写</p>
-<p><img src="/%E9%99%88%E5%A5%89%E9%A2%96-202120130268-%E5%AE%9E%E9%AA%8C3/image-9.png" alt="![alt text](image-9.png)"><br><img src="/%E9%99%88%E5%A5%89%E9%A2%96-202120130268-%E5%AE%9E%E9%AA%8C3/image-10.png" alt="![alt text](image-10.png)"></p>
+<img src="/2024/03/25/%E9%99%88%E5%A5%89%E9%A2%96-202120130268-%E5%AE%9E%E9%AA%8C3/image-9.png" class="" title="!\[alt text\](image-9.png)">
+<img src="/2024/03/25/%E9%99%88%E5%A5%89%E9%A2%96-202120130268-%E5%AE%9E%E9%AA%8C3/image-10.png" class="" title="!\[alt text\](image-10.png)">
+
 <p>得到下图：成功！！！</p>
-<p><img src="/%E9%99%88%E5%A5%89%E9%A2%96-202120130268-%E5%AE%9E%E9%AA%8C3/image-11.png" alt="![alt text](image-11.png)"></p>
+<img src="/2024/03/25/%E9%99%88%E5%A5%89%E9%A2%96-202120130268-%E5%AE%9E%E9%AA%8C3/image-11.png" class="" title="!\[alt text\](image-11.png)">
+
 <h3 id="5-写文章、发布文章"><a href="#5-写文章、发布文章" class="headerlink" title="5.写文章、发布文章"></a><strong>5.写文章、发布文章</strong></h3><p>首先在博客根目录下右键打开git bash，安装一个扩展<code>npm i hexo-deployer-git</code>。</p>
 <p>然后输入<code>hexo new post &quot;我的第一篇博客&quot;</code>，新建一篇文章。</p>
 <p>然后打开<code>E:\myblog\source\\_posts</code>的目录，可以发现下面多了一个文件夹和一个.md文件，一个用来存放你的图片等数据，另一个就是你的文章文件啦。</p>
 <p>你可以会直接在vscode里面编写markdown文件，可以实时预览，也可以用用其他编辑md文件的软件的工具编写。</p>
 <p>编写完markdown文件后，根目录下输入<code>hexo g</code>生成静态网页，然后输入<code>hexo s</code>可以本地预览效果，最后输入<code>hexo d</code>上传到github上。这时打开你的github.io主页就能看到发布的文章啦。</p>
 <p>如下图所示为我的博客以及上传了实验报告后的截图：</p>
-<p><img src="/%E9%99%88%E5%A5%89%E9%A2%96-202120130268-%E5%AE%9E%E9%AA%8C3/image-12.png" alt="![alt text](image-12.png)"></p>
+<img src="/2024/03/25/%E9%99%88%E5%A5%89%E9%A2%96-202120130268-%E5%AE%9E%E9%AA%8C3/image-12.png" class="" title="!\[alt text\](image-12.png)">
+
 <h2 id="结论分析与体会："><a href="#结论分析与体会：" class="headerlink" title="结论分析与体会："></a>结论分析与体会：</h2><p>最开始我通过在网络上搜索，了解到有很多云平台可以搭建自己的个人博客，在通过多方位比较之后，最终我选择利用 GitHub 和 Hexo 搭建了自己的个人博客，并且成功搭建完成了！这不仅是一次技术上的尝试，更是一段充满成就感的学习旅程。</p>
 <p>一开始，我对搭建博客一无所知，对于自主搭建博客这件事，该选择哪个云平台，该用哪种方式，我感到些许迷茫。但我没有放弃，而是积极利用搜索引擎，查阅相关资料，并认真学习每一个步骤。从了解 GitHub 和 Hexo 的基本概念，到配置环境、安装软件、修改代码，每一步都充满了挑战，但也让我收获了满满的知识。</p>
 <p>在搭建过程中，我不可避免地遇到了各种问题。有时是代码错误，有时是配置失误，甚至还会遇到网络问题。面对这些困难，我并没有气馁，而是耐心地排查错误，反复尝试，并积极向网络社区寻求帮助。最终，当我成功解决问题，看到博客顺利运行的那一刻，心中的喜悦无法言喻。</p>
